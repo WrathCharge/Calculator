@@ -17,3 +17,11 @@ elif op == "/":
 elif op == "**":
     pov = num1 ** num2
     print("Answer:", pov)
+i = input("Do you want to continue?")
+if i == "Yes":
+    continue
+elif i == "yes":
+    continue
+else:
+    break
+    
